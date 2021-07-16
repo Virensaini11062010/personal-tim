@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 175px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(#a6bbf5 0%, #0044ff 100%);
+    width: 100%;
+    height: 100%;
+    display: table;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+}
+
+h1 {
+    line-height: 1.2;
+    font-weight: w300;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 0px;
+    background-color: azure;
+}
+
+.links {
+    display: inline;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    font-size: 25px;
+ text-decoration: underline;
+}
+
+
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+#writings a{
+    color: blue;
+    text-decoration: underline;
+     text-shadow:none; 
+}
+#contact{
+    background-color:hotpink;
+}
+#contact iframe{
+    width: 100%;
+}
+
+#contect a{
+    color: white;
+     text-shadow: none;
+}
+
+#contact h1{
+    color: white;
+}
+
+.contact1 h3{
+    display: inline;
+    color: white;
+}
